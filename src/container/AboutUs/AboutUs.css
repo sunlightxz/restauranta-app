@@ -1,0 +1,33 @@
+.about-g{
+    Width :391px;
+    Height :415px;
+}
+.aboutus-knife img{
+    height: 900px;
+}
+.aboutus-content p {
+    color: #aaaa;
+}
+
+@media screen and (max-width:2000px){
+    .aboutus-knife img{
+        height: 1100px;
+    }
+    .aboutus-content p {
+        margin: 4rem 0;
+    }
+}
+@media screen and (max-width:950px){
+    .aboutus-content {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:650px){
+    .aboutus-knife img{
+        height: 500px;
+    }
+    .about-g{
+        Width :300px;
+        Height :320px;
+    }
+}
