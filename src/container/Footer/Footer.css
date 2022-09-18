@@ -1,0 +1,28 @@
+.app-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    background-color: black;
+    padding-top: 0;
+}
+
+.links-icons svg {
+    color: white;
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1150px) {
+    .app-footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-footer-content-info {
+        margin: 2rem 0;
+    }
+}

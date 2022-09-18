@@ -4,4 +4,24 @@
 .center-content img {
     Width :412px;
     Height:660px;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width:650px) {
+    .center-content img {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:1150px) {
+    .specialMenu-content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .center-content img {
+        margin: 3rem 0;
+    }
+    
 }

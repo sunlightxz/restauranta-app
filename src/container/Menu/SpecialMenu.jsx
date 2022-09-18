@@ -12,7 +12,9 @@ const SpecialMenu = () => (
     </div>
     <div className="specialMenu-content flex__center ">
       <div className="left-content flex justify-start items-start flex-1 flex-col">
-        <h1 className='text-white text-2xl'>Wine & drink</h1>
+        <div className="w-full">
+          <h1 className='text-white text-4xl font-base text-center mb-5 font-medium'>Wine & drink</h1>
+        </div>
         <p>{data.wines.map((wine,index)=>(
         <MenuItem key={wine.title + index}  title={wine.title} price={wine.price} tags={wine.tags}/>
         )
@@ -22,8 +24,9 @@ const SpecialMenu = () => (
         <img src={images.menu} alt="" />
       </div>
       <div className="right-content flex justify-start items-start flex-1 flex-col">
-        <h1 className='text-white text-2xl'>cocktails</h1>
-        <p>{data.cocktails.map((cocktail,index)=>(
+      <div className="w-full">
+          <h1 className='text-white text-4xl font-base text-center mb-5 font-medium'>cocktails</h1>
+        </div>        <p>{data.cocktails.map((cocktail,index)=>(
         <MenuItem key={cocktail.title + index}  title={cocktail.title} price={cocktail.price} tags={cocktail.tags}/>
 
         ))}</p>

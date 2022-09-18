@@ -1,0 +1,45 @@
+.Newsletter-input input{
+    width: 635px;
+    height: 55px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: #DCCA87 1px solid;
+    padding-left: 16px ;
+    margin-right: 2rem;
+    
+}
+.Newsletter-input {
+
+}
+
+@media screen and (min-width: 2000px) {
+    .Newsletter-input input {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .Newsletter-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Newsletter-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .newsLetter {
+        padding: 2rem 0;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .newletter-header h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
